@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hisar Burger</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" media="(max-width:780px)" href="medium.css">
+    <link rel="stylesheet" media="(max-width:550px)" href="phone.css">
+
+</head>
+
+
+<body>
+
+    <!-- karanlık ve aydınlık mod kısmı  -->
+<span id="background-change-span">
+    <span id="logo-change-white"></span>
+    <span id="logo-change-dark"></span>
+    <!-- <img id="logo-change-white" src="assets/hisar-burger-logo-1.jpg" alt="logo1">
+    <img  id="logo-change-dark" src="assets/hisar-burger-logo-2.jpg" alt="logo1"> -->
+</span>
+    <!-- karanlık ve aydınlık mod kısmı sonu   -->
+
+
+
+
+<!-- bölüm  -->
+    <section id="section">
+
+
+        <!-- üst nav bar bölümü  -->
+        <div  class="nav-bar">
+            <button onclick="toggleVisibility(`menu`)" class="button-nav-bar" id="navBar-js">Menü</button>
+            <button onclick="toggleVisibility(`rezervasyon`)" class="button-nav-bar" id="navBar-js">İletişim & Rezervasyon</button>
+            <button onclick="toggleVisibility(`about`)" class="button-nav-bar" id="navBar-js">Hakkında</button>
+            <!-- <button onclick="toggleVisibility(`galery`)" class="button-nav-bar" id="navBar-js">Galeri</button> -->
+        </div>
+        <!-- üst nav bar bölüm sonu  -->
+
+
+
+        <!-- menü ana sayfası (home) -->
+        <div id="menu" class="home">
+
+
+
+    <!-- sol taraftaki menü nav bar kısmı  -->
+    <span id="right-nav-bar">
+        <a class="rightMenu" id="menu-burger-part" href="#menu-burgers"><img id="burgers-Logo" src="assets/kıyma-kasar.jpg" alt=""></a>
+        <a class="rightMenu" id="menu-burger-part" href="#menu-spagetti"><img id="burgers-Logo" src="assets/kebap2.jpg" alt=""></a>
+        <a class="rightMenu" id="menu-burger-part" href="#menu-fruit"><img id="burgers-Logo" src="assets/künefe.jpg" alt=""></a>
+        <a class="rightMenu" id="menu-burger-part" href="#menu-drink"><img id="burgers-Logo" src="assets/drink.jpg" alt=""></a>
+    
+    </span>
+        <!-- sol taraftaki menü nav bar kısmı  sonu  -->
+    
+
+            <!-- menü pide bölümü  -->
+
+
+
+
+
+                    <div class="menu-public" id="menu-burgers">
+                                            <div class="menu-groups-title">
+                                                <h2 id="burgers-head-title">pideler</h2>
+                                            </div>
+                                                    <div class="menu-groups">
+                                                            <div class="menu-groups-detail">
+                                                                <div class="menu-detail-left">
+                                                                    <img id="burger-img" src="assets/kıymalı.jpg" alt="burger">
+
+
+                                                                </div>
+                                                                <div class="menu-detail-right">
+                                                                    <h3 id="burger-name">kıymalı pide</h3>
+                                                                    <p id="burger-info">salata ve ezme ile servis edilir.</p>
+                                                                    <p id="burger-pay"></p>
+                    
+
+
+                                                                </div>
+
+                                                            </div>
+                                                    </div>
+                                                    <div class="menu-groups">
+                                                            <div class="menu-groups-detail">
+                                                                <div class="menu-detail-left">
+                                                                    <img id="burger-img" src="assets/kıyma-kasar.jpg" alt="burger">
+
+
+                                                                </div>
+                                                                <div class="menu-detail-right">
+                                                                    <h3 id="burger-name">kıyma kaşar pide</h3>
+                                                                    <p id="burger-info">salata ve ezme ile servis edilir.</p>
+                                                                    <p id="burger-pay"></p>
+                    
+
+
+                                                                </div>
+
+                                                            </div>
+                                                    </div>
+                                                    <div class="menu-groups">
+                                                            <div class="menu-groups-detail">
+                                                                <div class="menu-detail-left">
+                                                                    <img id="burger-img" src="assets/lahmacun.jpg" alt="burger">
+
+
+                                                                </div>
+                                                                <div class="menu-detail-right">
+                                                                    <h3 id="burger-name">lahmacun</h3>
+                                                                    <p id="burger-info">salata ve ezme ile servis edilir.</p>
+                                                                    <p id="burger-pay"></p>
+                    
+
+
+                                                                </div>
+
+                                                            </div>
+                                                    </div>
+                                                    <div class="menu-groups">
+                                                            <div class="menu-groups-detail">
+                                                                <div class="menu-detail-left">
+                                                                    <img id="burger-img" src="assets/kapalı-pide.jpg" alt="burger">
+
+
+                                                                </div>
+                                                                <div class="menu-detail-right">
+                                                                    <h3 id="burger-name">kapalı pide</h3>
+                                                                    <p id="burger-info">salata ve ezme ile servis edilir.</p>
+                                                                    <p id="burger-pay"></p>
+                    
+
+
+                                                                </div>
+
+                                                            </div>
+                                                    </div>
+                                                    <div class="menu-groups">
+                                                            <div class="menu-groups-detail">
+                                                                <div class="menu-detail-left">
+                                                                    <img id="burger-img" src="assets/sucuklu-kasarli.jpg" alt="burger">
+
+
+                                                                </div>
+                                                                <div class="menu-detail-right">
+                                                                    <h3 id="burger-name">sucuklu kaşarlı pide</h3>
+                                                                    <p id="burger-info">salata ve ezme ile servis edilir.</p>
+                                                                    <p id="burger-pay"></p>
+                    
+
+
+                                                                </div>
+
+                                                            </div>
+                                                    </div>
+                                                    <div class="menu-groups">
+                                                            <div class="menu-groups-detail">
+                                                                <div class="menu-detail-left">
+                                                                    <img id="burger-img" src="assets/sade-kasar.jpg" alt="burger">
+
+
+                                                                </div>
+                                                                <div class="menu-detail-right">
+                                                                    <h3 id="burger-name">sade kaşar pide</h3>
+                                                                    <p id="burger-info">salata ve ezme ile servis edilir.</p>
+                                                                    <p id="burger-pay"></p>
+                    
+
+
+                                                                </div>
+
+                                                            </div>
+                                                    </div>
+                                                    <div class="menu-groups">
+                                                            <div class="menu-groups-detail">
+                                                                <div class="menu-detail-left">
+                                                                    <img id="burger-img" src="assets/sucuklu-yumurtalı.jpg" alt="burger">
+
+
+                                                                </div>
+                                                                <div class="menu-detail-right">
+                                                                    <h3 id="burger-name">sucuklu yumurtalı pide</h3>
+                                                                    <p id="burger-info">salata ve ezme ile servis edilir.</p>
+                                                                    <p id="burger-pay"></p>
+                    
+
+
+                                                                </div>
+
+                                                            </div>
+                                                    </div>
+                                                    <div class="menu-groups">
+                                                            <div class="menu-groups-detail">
+                                                                <div class="menu-detail-left">
+                                                                    <img id="burger-img" src="assets/kusbası.jpg" alt="burger">
+
+
+                                                                </div>
+                                                                <div class="menu-detail-right">
+                                                                    <h3 id="burger-name">kuşbaşılı pide</h3>
+                                                                    <p id="burger-info">salata ve ezme ile servis edilir.</p>
+                                                                    <p id="burger-pay">50 TL</p>
+                    
+
+
+                                                                </div>
+
+                                                            </div>
+                                                    </div>
+                                                    <div class="menu-groups">
+                                                            <div class="menu-groups-detail">
+                                                                <div class="menu-detail-left">
+                                                                    <img id="burger-img" src="assets/special.jpg" alt="burger">
+
+
+                                                                </div>
+                                                                <div class="menu-detail-right">
+                                                                    <h3 id="burger-name">special pide</h3>
+                                                                    <p id="burger-info"> özel salata ve ezme ile servis edilir.</p>
+                                                                    <p id="burger-pay"></p>
+                    
+
+
+                                                                </div>
+
+                                                            </div>
+                                                    </div>
+                                                    <div class="menu-groups">
+                                                            <div class="menu-groups-detail">
+                                                                <div class="menu-detail-left">
+                                                                    <!-- <img id="burger-img" src="" alt="burger"> -->
+
+
+                                                                </div>
+                                                                <div class="menu-detail-right">
+                                                                    <h3 id="burger-name">yumurta kaşarlı pide</h3>
+                                                                    <p id="burger-info"> özel salata ve ezme ile servis edilir.</p>
+                                                                    <p id="burger-pay"></p>
+                    
+
+
+                                                                </div>
+
+                                                            </div>
+                                                    </div>
+                                                    <div class="menu-groups">
+                                                            <div class="menu-groups-detail">
+                                                                <div class="menu-detail-left">
+                                                                    <!-- <img id="burger-img" src="" alt="burger"> -->
+
+
+                                                                </div>
+                                                                <div class="menu-detail-right">
+                                                                    <h3 id="burger-name">beyaz peynirli</h3>
+                                                                    <p id="burger-info"> özel salata ve ezme ile servis edilir.</p>
+                                                                    <p id="burger-pay"></p>
+                    
+
+
+                                                                </div>
+
+                                                            </div>
+                                                    </div>
+                                                    <div class="menu-groups">
+                                                            <div class="menu-groups-detail">
+                                                                <div class="menu-detail-left">
+                                                                    <!-- <img id="burger-img" src="" alt="burger"> -->
+
+
+                                                                </div>
+                                                                <div class="menu-detail-right">
+                                                                    <h3 id="burger-name">kuşbaşı kaşarlı pide</h3>
+                                                                    <p id="burger-info"> özel salata ve ezme ile servis edilir.</p>
+                                                                    <p id="burger-pay"></p>
+                    
+
+
+                                                                </div>
+
+                                                            </div>
+                                                    </div>
+
+
+                                             
+                                                 
+
+                    
+            
+                    </div>
+
+              <!-- menü burger bölümünün sonu   -->
+
+<!--  -->
+
+
+
+
+
+              <!-- menü kebap bölümü  -->
+                    <div class="menu-public" id="menu-spagetti">
+                                <div class="menu-groups-title">
+                                    <h2 id="burgers-head-title">kebaplar</h2>
+                                </div>                            
+                                                <div class="menu-groups">
+                                                        <div class="menu-groups-detail">
+                                                            <div class="menu-detail-left">
+                                                                <img id="burger-img" src="assets/kebap.jpg" alt="burger">
+
+
+                                                            </div>
+                                                            <div class="menu-detail-right">
+                                                                <h3 id="burger-name">adana kebap</h3>
+                                                                <p id="burger-info">ezme özel salata ve lavaş ile servis edilir.</p>
+                                                                <p id="burger-pay"></p>
+
+
+
+                                                            </div>
+
+                                                        </div>
+                                                </div>
+                                                <div class="menu-groups">
+                                                        <div class="menu-groups-detail">
+                                                            <div class="menu-detail-left">
+                                                                <img id="burger-img" src="assets/kebap2.jpg" alt="burger">
+
+
+                                                            </div>
+                                                            <div class="menu-detail-right">
+                                                                <h3 id="burger-name">urfa kebap</h3>
+                                                                <p id="burger-info">ezme özel salata ve lavaş ile servis edilir.</p>
+                                                                <p id="burger-pay"></p>
+
+
+
+                                                            </div>
+
+                                                        </div>
+                                                </div>
+                                                <div class="menu-groups">
+                                                        <div class="menu-groups-detail">
+                                                            <div class="menu-detail-left">
+                                                                <img id="burger-img" src="assets/kebap4.jpg" alt="burger">
+
+
+                                                            </div>
+                                                            <div class="menu-detail-right">
+                                                                <h3 id="burger-name">ciğer kebap</h3>
+                                                                <p id="burger-info">ezme özel salata ve lavaş ile servis edilir.</p>
+                                                                <p id="burger-pay"></p>
+
+
+
+                                                            </div>
+
+                                                        </div>
+                                                </div>
+                                                <div class="menu-groups">
+                                                        <div class="menu-groups-detail">
+                                                            <div class="menu-detail-left">
+                                                                <img id="burger-img" src="assets/kebap5.jpg" alt="burger">
+
+
+                                                            </div>
+                                                            <div class="menu-detail-right">
+                                                                <h3 id="burger-name">tavuk şiş </h3>
+                                                                <p id="burger-info">ezme özel salata ve lavaş ile servis edilir.</p>
+                                                                <p id="burger-pay"></p>
+
+
+
+                                                            </div>
+
+                                                        </div>
+                                                </div>
+                                                <div class="menu-groups">
+                                                        <div class="menu-groups-detail">
+                                                            <div class="menu-detail-left">
+                                                                <img id="burger-img" src="assets/dürüm.jpg" alt="burger">
+
+
+                                                            </div>
+                                                            <div class="menu-detail-right">
+                                                                <h3 id="burger-name">adana dürüm</h3>
+                                                                <p id="burger-info">ezme özel salata ve lavaş ile servis edilir.</p>
+                                                                <p id="burger-pay"></p>
+
+
+
+                                                            </div>
+
+                                                        </div>
+                                                </div>
+                                                <div class="menu-groups">
+                                                        <div class="menu-groups-detail">
+                                                            <div class="menu-detail-left">
+                                                                <img id="burger-img" src="assets/dürüm.jpg" alt="burger">
+
+
+                                                            </div>
+                                                            <div class="menu-detail-right">
+                                                                <h3 id="burger-name">urfa kebap</h3>
+                                                                <p id="burger-info">ezme özel salata ve lavaş ile servis edilir.</p>
+                                                                <p id="burger-pay">90 TL</p>
+
+
+
+                                                            </div>
+
+                                                        </div>
+                                                </div>
+                                  
+
+                    </div>
+
+
+               <!-- menü kebap bölümünün sonu   -->
+
+<!--  -->
+
+
+                <!-- menü tatlı bölümü  -->
+
+                    <div class="menu-public" id="menu-fruit">
+                                    <div class="menu-groups-title">
+                                        <h2 id="burgers-head-title">tatlı</h2>
+                                    </div>
+                                        <div class="menu-groups">
+                                            <div class="menu-groups-detail">
+                                                <div class="menu-detail-left">
+                                                    <img id="burger-img" src="assets/künefe.jpg" alt="burger">
+
+
+                                                </div>
+                                                <div class="menu-detail-right">
+                                                    <h3 id="burger-name">künefe</h3>
+                                                    <p id="burger-info"></p>
+                                                    <p id="burger-pay">60 TL</p>
+
+
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    
+                    </div>
+
+
+                <!-- menü tatlı bölümü sonu  -->
+<!--  -->
+
+                    <!-- menü içecek bölümü -->
+
+
+                    <div class="menu-public" id="menu-drink">
+                                <div class="menu-groups-title">
+                                    <h2 id="burgers-head-title">içecek</h2>
+                                </div>                            
+                                            <div class="menu-groups">
+                                                    <div class="menu-groups-detail">
+                                                        <div class="menu-detail-left">
+                                                            <img id="burger-img" src="assets/kola.jpg" alt="burger">
+
+
+                                                        </div>
+                                                        <div class="menu-detail-right">
+                                                            <h3 id="burger-name">kola</h3>
+                                                            <p id="burger-info"></p>
+                                                            <p id="burger-pay">20 TL</p>
+
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            <div class="menu-groups">
+                                                    <div class="menu-groups-detail">
+                                                        <div class="menu-detail-left">
+                                                            <!-- <img id="burger-img" src="assets/kola.jpg" alt="burger"> -->
+
+
+                                                        </div>
+                                                        <div class="menu-detail-right">
+                                                            <h3 id="burger-name">fanta</h3>
+                                                            <p id="burger-info"></p>
+                                                            <p id="burger-pay">20 TL</p>
+
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            <div class="menu-groups">
+                                                    <div class="menu-groups-detail">
+                                                        <div class="menu-detail-left">
+                                                            <!-- <img id="burger-img" src="assets/kola.jpg" alt="burger"> -->
+
+
+                                                        </div>
+                                                        <div class="menu-detail-right">
+                                                            <h3 id="burger-name">sprite</h3>
+                                                            <p id="burger-info"></p>
+                                                            <p id="burger-pay">20 TL</p>
+
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            <div class="menu-groups">
+                                                    <div class="menu-groups-detail">
+                                                        <div class="menu-detail-left">
+                                                            <!-- <img id="burger-img" src="assets/kola.jpg" alt="burger"> -->
+
+
+                                                        </div>
+                                                        <div class="menu-detail-right">
+                                                            <h3 id="burger-name">ıce tea</h3>
+                                                            <p id="burger-info"></p>
+                                                            <p id="burger-pay">20 TL</p>
+
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            <div class="menu-groups">
+                                                    <div class="menu-groups-detail">
+                                                        <div class="menu-detail-left">
+                                                            <!-- <img id="burger-img" src="assets/kola.jpg" alt="burger"> -->
+
+
+                                                        </div>
+                                                        <div class="menu-detail-right">
+                                                            <h3 id="burger-name">meyveli soda</h3>
+                                                            <p id="burger-info"></p>
+                                                            <p id="burger-pay">10 TL</p>
+
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            <div class="menu-groups">
+                                                    <div class="menu-groups-detail">
+                                                        <div class="menu-detail-left">
+                                                            <!-- <img id="burger-img" src="assets/kola.jpg" alt="burger"> -->
+
+
+                                                        </div>
+                                                        <div class="menu-detail-right">
+                                                            <h3 id="burger-name">ayran</h3>
+                                                            <p id="burger-info"></p>
+                                                            <p id="burger-pay">10 TL</p>
+
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            <div class="menu-groups">
+                                                    <div class="menu-groups-detail">
+                                                        <div class="menu-detail-left">
+                                                            <!-- <img id="burger-img" src="assets/kola.jpg" alt="burger"> -->
+
+
+                                                        </div>
+                                                        <div class="menu-detail-right">
+                                                            <h3 id="burger-name">şalgam</h3>
+                                                            <p id="burger-info"></p>
+                                                            <p id="burger-pay">15 TL</p>
+
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            <div class="menu-groups">
+                                                    <div class="menu-groups-detail">
+                                                        <div class="menu-detail-left">
+                                                            <!-- <img id="burger-img" src="assets/kola.jpg" alt="burger"> -->
+
+
+                                                        </div>
+                                                        <div class="menu-detail-right">
+                                                            <h3 id="burger-name">su</h3>
+                                                            <p id="burger-info"></p>
+                                                            <p id="burger-pay">5 TL</p>
+
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                   
+
+
+                    </div>
+                       <!-- menü içecek bölümü sonu  -->
+
+                       <!--  -->
+    
+    
+    
+    
+    
+        </div>
+        <!-- menü ana sayfası (home) -->
+<!--  -->
+        <!-- rezervasyon bölümü  css 312. satır -->
+        <div id="rezervasyon" class="home">
+            <div class="rezervasyon-home">
+                <div class="rezervasyon-head-title">
+                    <h3 id="bize-ulasin">Bize Ulaşın</h3>
+                    <p id="rez-adres">Hıdırlık Mahallesi,Atatürk Caddesi,19 Seferihisar, İzmir</p>
+                    <p id="rez-tel">tel :  0 (232) 743 41 51</p>
+                    <iframe class="rez-maps" id="rez-maps-id" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6271.273852305043!2d26.837616!3d38.195107!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzjCsDExJzQyLjQiTiAyNsKwNTAnMTUuNCJF!5e0!3m2!1str!2sus!4v1678385231361!5m2!1str!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <input  class="maps-range" type="range">
+
+                </div>
+
+                <div class="rezervasyon-form-group">
+                    <p>İsim</p>
+                    <input type="email">
+                    <p>Email</p>
+                    <input type="text">
+                    <p>Adres</p>
+                    <input type="text">
+                    <p >Mesajınız..</p>
+                    <input id="message-form-rez" type="text">
+                    <button id="rez-cend-button">Gönder</button>
+                </div>
+
+                <div class="rezervasyon-end-group">
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <!-- rezervasyon bölümü sonu  -->
+<!--  -->
+        <!-- hakkında bölümü  -->
+        <div id="about" class="home">
+            <div class="about-home">
+
+                <div class="about-text">
+                    <p id="about-text-part"></p>
+
+                </div>
+
+
+
+
+
+
+                <div class="social-media-logo">
+                    <a id="about-social-logo" href="https://www.facebook.com/people/Efes-Pide/100066995889660/?paipv=0&eav=AfbU7y2FwVSaUW4bM0IC2_VUgN204XSYMQjT_eQyGzyh9-R1PGnDZNlei4n_Mfj8ZUA&_rdr" class="fa fa-facebook"></a>
+                    <a id="about-social-logo" href="#" class="fa fa-twitter"></a>
+                    <a id="about-social-logo" href="https://www.bulurum.com/details/1h505d11a7_j45a57cccc6b1d552c160" class="fa fa-google"></a>
+                    <a id="about-social-logo" href="#" class="fa fa-linkedin"></a>
+                    <a id="about-social-logo" href="#" class="fa fa-youtube"></a>
+                    <a id="about-social-logo" href="#" class="fa fa-instagram"></a>
+
+                </div>
+            </div>
+
+
+
+        </div>
+        <!-- hakkında bölümü sonu  -->
+<!--  -->
+        <!-- galeri bölümü  -->
+        <!-- <div id="galery" class="home">
+            <div class="galery-home">
+                 <h1 id="galery-title-h">Yemek fotoğrafları</h1>
+                <div class="photo-galery">
+                    <img id="galery-img-style" src="assets/burger1.png" alt="">
+                    <img id="galery-img-style" src="assets/burger2.png" alt="">
+                    <img id="galery-img-style" src="assets/burger3.png" alt="">
+                    <img id="galery-img-style" src="assets/burger4.png" alt="">
+                    <img id="galery-img-style" src="assets/burger5.png" alt="">
+                    <img id="galery-img-style" src="assets/burger6.png" alt="">
+                    <img id="galery-img-style" src="assets/burger7.png" alt="">
+                    <img id="galery-img-style" src="assets/drink.jpg" alt="">
+                    <img id="galery-img-style" src="assets/hisar-burger-logo-1.jpg" alt="">
+                    <img id="galery-img-style" src="assets/hisar-burger-logo-2.jpg" alt="">
+                    <img id="galery-img-style" src="assets/makarna.png" alt="">
+                    <img id="galery-img-style" src="assets/tatlı.png" alt="">
+                    <img id="galery-img-style" src="assets/burger1.png" alt="">
+                    <img id="galery-img-style" src="assets/burger5.png" alt="">
+                    <img id="galery-img-style" src="assets/burger6.png" alt="">
+                    <img id="galery-img-style" src="assets/burger3.png" alt="">
+                    <img id="galery-img-style" src="assets/burger2.png" alt="">
+                    <img id="galery-img-style" src="assets/tatlı.png" alt="">
+                    <img id="galery-img-style" src="assets/hisar-burger-logo-1.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div> -->
+        <!-- galeri bölümü sonu  -->
+
+
+
+        
+    
+        
+
+
+
+
+    <!-- home  kısmı bitişi  -->
+    
+
+
+
+
+
+
+
+    </section>
+
+    
+
+<!--bölüm sonu  -->
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

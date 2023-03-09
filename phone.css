@@ -1,0 +1,79 @@
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    width:55%;
+    height: auto;
+}
+
+#background-change-span{
+    display: flex;
+    flex-direction: row;
+    padding: 0.2rem;
+    width:4rem;
+    height: 2rem;
+    position: absolute;
+
+}
+
+#logo-change-white{
+    display: flex;
+
+}
+#logo-change-dark{
+    display: flex;
+}
+
+
+.menu-groups-title{
+    display: flex;
+    width: 60%;
+    height: 20%;
+    justify-content: center !important;
+    align-items: center;
+    border-radius: 7px;
+}
+
+#burgers-head-title{
+    display: flex;
+    width: 50%;
+    height: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 80% !important;
+
+}
+
+
+.menu-public{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.menu-groups{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+
+#right-nav-bar{
+    display: flex;
+    width: 3rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#burgers-Logo{
+    display: flex;
+    width: 3rem;
+    height: auto;
+}

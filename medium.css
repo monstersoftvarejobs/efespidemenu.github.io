@@ -1,0 +1,90 @@
+.nav-bar{
+    display: flex;
+    width: 70%;
+    height:100%;
+    flex-direction: column ;
+    margin-bottom: 2rem;
+  }
+
+
+  .button-nav-bar{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 1rem;
+    
+  }
+
+
+  .menu-groups-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 90%;
+  
+  }
+  
+  
+
+  .menu-detail-left{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+  }
+  .menu-detail-right{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  #burger-img{
+    display: flex;
+    width: 95%;
+    height:55%;
+    border-radius: 2rem;
+  }
+  
+  #burger-name{
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 5px;
+    font-size: 2rem;  
+  }
+  #burger-info{
+    display: flex;
+    font-size: 90%;
+    flex-wrap: wrap;
+  
+  
+  }
+  
+  #burger-pay{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+  
+  
+  }
+
+
+
+
+
+  #logo-change-white{
+    left: 2%;
+    top: 10%;
+  
+    
+  }
+  #logo-change-dark{
+    top: 4%;
+    left: 2%;
+  
+  }
+  
