@@ -31,6 +31,8 @@
     justify-content: center !important;
     align-items: center;
     border-radius: 7px;
+    font-size: 1.5rem;
+
 }
 
 #burgers-head-title{
@@ -64,16 +66,62 @@
 }
 
 
+
+
+/* 
+<span id="right-nav-bar">
+<a class="rightMenu" id="menu-burger-part" href="#menu-burgers"><img id="burgers-Logo" src="assets/kıyma-kasar.jpg" alt=""></a>
+<a class="rightMenu" id="menu-burger-part" href="#menu-spagetti"><img id="burgers-Logo" src="assets/kebap2.jpg" alt=""></a>
+<a class="rightMenu" id="menu-burger-part" href="#menu-fruit"><img id="burgers-Logo" src="assets/künefe.jpg" alt=""></a>
+<a class="rightMenu" id="menu-burger-part" href="#menu-drink"><img id="burgers-Logo" src="assets/drink.jpg" alt=""></a>
+
+</span>
+
+ */
+
+
+
+
+
+
 #right-nav-bar{
     display: flex;
-    width: 3rem;
+    width: 4.1rem;
     justify-content: center;
     align-items: center;
+    
 
 }
 
-#burgers-Logo{
+/* #burgers-Logo{
     display: flex;
-    width: 3rem;
-    height: auto;
+    width: 100%;
+    margin: 0rem;
+    height: 100%;
+} */
+
+
+#menu-burger-part{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0rem;
 }
+
+
+
+
+/* .menu-groups-title{
+    display: flex;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.5rem;
+
+  
+  
+  } */
