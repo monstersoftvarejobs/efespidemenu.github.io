@@ -1,634 +1,678 @@
 body{
-    width: 100%;
-    height: 100%;
-    background-position: top;
-    margin: 0rem !important;
-    text-decoration:none;
-    padding: 0rem;
-    background-image:url(assets/pide-salonu-background.png);
-    background-size: 100%;
-  
-  }
-  
-  #section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    margin: 0rem !important;
-  }
-  
-  
+  width: 100%;
+  height: 100%;
+  background-position: top;
+  margin: 0rem !important;
+  text-decoration:none;
+  padding: 0rem;
+  background-image:url(assets/pide-salonu-background.png);
+  background-size: 100%;
+
+}
+
+#section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0rem !important;
+}
 
 
 
 
-   /* ana sayfadaki logo  */
-   .efes-logo-title{
-    display: flex;
-    position: absolute;
-    width: 8rem;
-    height: 5rem;
-    left: 1rem;
-    top: 0rem;
-   }
 
 
-   #efes-logo-title-img{
-    display: flex;
-    width: 100%;
-    height: 100%;
-     border-bottom-right-radius: 2em;
+ /* ana sayfadaki logo  */
+ .efes-logo-title{
+  display: flex;
+  position: absolute;
+  width: 8rem;
+  height: 5rem;
+  left: 1rem;
+  top: 0rem;
+ }
 
-   }
-  
-  
-  /* navbar bölümü tasarımı  */
-  .nav-bar{
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%;
-    height: 4rem;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 2px solid black;
-  }
-  
-  .button-nav-bar{
-  
-    display: inline-block;
-    --b: 1px;   /* border thickness */
-    --s: 0.16em; /* size of the corner */
-    color: rgb(0, 0, 0);
-    
-    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
-    color: var(--color);
-    --_p: var(--s);
-    background:
-      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
-      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-    transition: .1s linear, color 0s, background-color 0s;
-    outline: var(--b) solid #0000;
-    outline-offset: .6em;
-    font-size: 16px;
-  
-    border: 0;
-  
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-   
-  }
-  
-  
-  
-  
-  .button-nav-bar:hover,
-  .button-nav-bar:focus-visible{
-    --_p: px;
-    outline-color: var(--color);
-    outline-offset: .01em;
-  }
-  
-  .button-nav-bar:active {
-    background: var(rgba(0, 0, 0, 0));
-    color: #141414b6;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  #navBar-js{
-    border-top-left-radius: 0rem;
-    font-weight: 900;
-  
-  }
-  
-  
-  
-  
-  
-  
-  
-  /* navbar bölümü tasarımı  */
-  
-  
-  
-  .home{
-    display: flex;
-    flex-direction: column;
-    min-width: 100% ;
-    height: 100%;
-    margin: 0px !important;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  
-  
-  
-  
-  /* #menu-burgers{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; 
-     width: 100%;
-    height: 100%;
-    flex-flow: row wrap; 
-    padding: 5%;
-    justify-content: center;
-    align-items: center;
-  } */
-  
-  .menu-groups-title{
-    display: flex;
-    width: 90%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.644);
-    border-radius: 1rem;
-    color: white;
-    font-size: 1.5rem;
 
-  
-  
-  }
-  
-  #burgers-head-title{
-    display: flex;
-    width: 100%;
-    letter-spacing:0.2cm;
-    justify-content: center;
-    align-items: center;
-  }
-  .menu-public{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    width: 50%;
-    height: 100%;
-    flex-flow: row wrap; 
-    padding: 5%;
-    justify-content: center;
-    align-items: center;
-  
-  
-  }
+ #efes-logo-title-img{
+  display: flex;
+  width: 100%;
+  height: 100%;
+   border-bottom-right-radius: 2em;
 
-  /* #menu-fruit{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  } */
+ }
 
-  .menu-groups{
-   display: flex;
-   flex-direction: row;
-   max-width: 80%;
-   height: 50%;
-   background-color: #1b1b1bc5;
-   color: #ffffffb6;
-   border-radius: 2rem;
-   margin: 1.2rem;
-  
-   
-  }
-  .menu-groups-detail{
-    display: flex;
-    flex-direction: row;
-    flex-flow:wrap;
-    width: 100%;
-    height: 90%;
-    margin: 1rem;
-  
-  }
-  
-  .menu-detail-left{
-    display: flex;
-    width: 40%;
-    height: 100%;
-  }
-  .menu-detail-right{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    height: 100%;
-  }
-  
-  
-  #burger-img{
-    display: flex;
-    width: 95% !important;
-    height:95%;
-    border-radius: 5rem;
-  }
-  
-  #burger-name{
-    display: flex;
-    flex-wrap: wrap;
-    letter-spacing: 5px;
-    font-size: 2rem;
-  
-  }
-  #burger-info{
-    display: flex;
-    font-size: 90%;
-    flex-wrap: wrap;
-    font-size: 1.5rem;
-  
-  
-  }
-  
-  #burger-pay{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 1rem;
-  
-  
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /* spanlar */
-  
-  
-  /* #background-change-span{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 6%;
-  }
-   */
 
-   #background-change-span{
-    display: flex;
-    flex-direction: row;
-    padding: 0.1rem;
-    width:3.5rem;
-    height: 1.9rem;
-    top: 0.7rem;
-    right: 0.7%;
-    position: absolute;
-    border-radius: 100rem;
-    border: 1px solid gray;
+/* navbar bölümü tasarımı  */
+.nav-bar{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 4rem;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.button-nav-bar{
+
+  display: inline-block;
+  --b: 1px;   /* border thickness */
+  --s: 0.16em; /* size of the corner */
+  color: rgb(0, 0, 0);
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .1s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+ 
+}
+
+
+
+
+.button-nav-bar:hover,
+.button-nav-bar:focus-visible{
+  --_p: px;
+  outline-color: var(--color);
+  outline-offset: .01em;
+}
+
+.button-nav-bar:active {
+  background: var(rgba(0, 0, 0, 0));
+  color: #141414b6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navBar-js{
+  border-top-left-radius: 0rem;
+  font-weight: 900;
+
+}
+
+
+
+
+
+
+
+/* navbar bölümü tasarımı  */
+
+
+
+.home{
+  display: flex;
+  flex-direction: column;
+  min-width: 100% ;
+  height: 100%;
+  margin: 0px !important;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+/* #menu-burgers{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; 
+   width: 100%;
+  height: 100%;
+  flex-flow: row wrap; 
+  padding: 5%;
+  justify-content: center;
+  align-items: center;
+} */
+
+.menu-groups-title{
+  display: flex;
+  width: 90%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.644);
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.5rem;
+
+
+
+}
+
+#burgers-head-title{
+  display: flex;
+  width: 100%;
+  letter-spacing:0.2cm;
+  justify-content: center;
+  align-items: center;
+}
+.menu-public{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  width: 50%;
+  height: 100%;
+  flex-flow: row wrap; 
+  padding: 5%;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+/* #menu-fruit{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+} */
+
+.menu-groups{
+ display: flex;
+ flex-direction: row;
+ max-width: 80%;
+ height: 50%;
+ background-color: #1b1b1bc5;
+ color: #ffffffb6;
+ border-radius: 2rem;
+ margin: 1.2rem;
+
+ 
+}
+.menu-groups-detail{
+  display: flex;
+  flex-direction: row;
+  flex-flow:wrap;
+  width: 100%;
+  height: 90%;
+  margin: 1rem;
+
+}
+
+.menu-detail-left{
+  display: flex;
+  width: 40%;
+  height: 100%;
+}
+.menu-detail-right{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+}
+
+
+#burger-img{
+  display: flex;
+  width: 95% !important;
+  height:95%;
+  border-radius: 5rem;
+}
+
+#burger-name{
+  display: flex;
+  flex-wrap: wrap;
+  letter-spacing: 5px;
+  font-size: 2rem;
+
+}
+#burger-info{
+  display: flex;
+  font-size: 90%;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+
+
+}
+
+#burger-pay{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* spanlar */
+
+
+/* #background-change-span{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 6%;
+}
+ */
+
+ #background-change-span{
+  display: flex;
+  flex-direction: row;
+  padding: 0.1rem;
+  width:3.5rem;
+  height: 1.9rem;
+  top: 0.7rem;
+  right: 0.7%;
+  position: absolute;
+  border-radius: 100rem;
+  border: 1px solid gray;
 }
 
 #logo-change-white{
-  display: flex;
-  width: 50%;
-  height: 100%;
-  background-color: #000000d0;
-  border-radius: 555rem;
-  margin: 0rem;
+display: flex;
+width: 50%;
+height: 100%;
+background-color: #000000d0;
+border-radius: 555rem;
+margin: 0rem;
 
 }
 #logo-change-dark{
-  display: flex;
-  width: 50%;
-  height: 100%;
-  background-color: #a43838;
-  border-radius: 55rem;
+display: flex;
+width: 50%;
+height: 100%;
+background-color: #a43838;
+border-radius: 55rem;
 
 }
 
 
 
 
-  /* nav bar sol taraf */
-  
-  
-  #right-nav-bar{
-    display: flex;
-    height: auto;
-    flex-direction: column;
-    position: fixed;
-    top: 20%;
-    left: 0rem;
-    background-color: rgba(0, 0, 0, 0.603);
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  
-  }
-  
-  #right-nav-bar img{
-    display: flex;
-    margin: 1rem;
-    width:2.5rem;
-    height: 2.5rem;
-    border-radius:5555rem;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /* rezervasyon  bölümü tasarımı    html . satır */
-  #rezervasyon{
-    display: flex;
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .rezervasyon-home{
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    border-radius: 2rem;
-    background-color: rgba(0, 0, 0, 0.719);
-    margin: 2rem;
-  
-  }
-  
-  .rezervasyon-head-title{
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-  
-  
-  }
+/* nav bar sol taraf */
 
 
-  #rez-tel{
-    display: flex;
-    background-color: #000000;
-    border-radius: 55rem;
-    padding: 5%;
-    color: #a43838;
-  }
+#right-nav-bar{
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  position: fixed;
+  top: 20%;
+  left: 0rem;
+  background-color: rgba(0, 0, 0, 0.603);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+
+}
+
+#right-nav-bar img{
+  display: flex;
+  margin: 1rem;
+  width:2.5rem;
+  height: 2.5rem;
+  border-radius:5555rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* rezervasyon  bölümü tasarımı    html . satır */
+#rezervasyon{
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rezervasyon-home{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  background-color: rgba(0, 0, 0, 0.719);
+  margin: 2rem;
+
+}
+
+.rezervasyon-head-title{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+#rez-tel{
+  display: flex;
+  background-color: #000000;
+  border-radius: 55rem;
+  padding: 5%;
+  color: #a43838;
+}
+
+
+#rezervasyon-head-body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.rezervasyon-head-title p{
+  font-size: 1.2rem;
+  color: aliceblue !important;
+  display: flex;
+  letter-spacing: 0.1cm;
+  padding: 1%;
+
+
+}
+#bize-ulasin{
+  display: flex;
+  font-size: 3rem;
+  display: flex;
+  color: aliceblue;
+  border-radius: 1rem;
+  letter-spacing: 0.7cm;
+  padding: 2%;
+}
+#rez-call{
+  display: flex;
+  font-size: 1rem;
+  display: flex;
+  color: aliceblue;
+  border-radius: 1rem;
+  letter-spacing: 0.1cm;
+  padding: 2%;
+}
+
+#rez-maps-id{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  padding: 1%;
+  margin: 10%;
+
+}
+
+.rezervasyon-form-group{
+  display: flex;
+  flex-direction: column;
+  width: 100;
+  height: auto;
+  padding: 10%;
+  margin-top: 4rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem !important;
+  border: 1px solid rgb(119, 70, 70);
+  border-radius: 2rem;
+  background-color: rgb(177, 177, 177);
   
+
   
-  #rezervasyon-head-body{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .rezervasyon-head-title p{
-    font-size: 1.2rem;
-    color: aliceblue;
-    display: flex;
-    letter-spacing: 0.1cm;
-    padding: 1%;
-  
-  
-  }
-  #bize-ulasin{
-    display: flex;
-    font-size: 3rem;
-    display: flex;
-    color: aliceblue;
-    border-radius: 1rem;
-    letter-spacing: 0.7cm;
-    padding: 2%;
-  }
-  
-  #rez-maps-id{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    border-radius: 1rem;
-    padding: 1%;
-    margin: 10%;
-  
-  }
-  
-  .rezervasyon-form-group{
-    display: flex;
-    flex-direction: column;
-    width: 100;
-    height: auto;
-    padding: 10%;
-    margin-top: 4rem;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10rem !important;
-    border: 1px solid rgb(119, 70, 70);
-    border-radius: 2rem;
-    background-color: rgb(177, 177, 177);
-    
-  
-    
-  }
-  
-  
-  .rezervasyon-form-group p {
-    display: flex;
-    font-size: 1rem;
-    border-radius: 2rem;
-    color: rgb(0, 0, 0);
-  
-  }
-  .rezervasyon-form-group input {
-    display: flex;
-    font-size: 1rem;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.384);
-    color: rgb(255, 255, 255);
-    border: 0px solid black;
-  
-  }
-  
-  
-  #message-form-rez{
-    display: flex;
-    width: 100%;
-    height: 3rem;
-  
-  }
-  
-  
-  #rez-cend-button{
-    display: flex;
-    width: 80%;
-    margin-top: 10%;
-    padding: 5%;
-    border-radius: 1em;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
-    background-color: rgb(66, 66, 66);
-    border: 0px rgb(24, 24, 24);
-  }
-  
-  
-  /* rezervasyon  bölümü tasarımı    sonu */
-  
-  
-  
-  
-  
-  
-  
-  /* hakkında   bölümü tasarımı    html . satır */
-  #about{
-    display: flex;
-    width: 95%;
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #0000;
-  }
-  
-  .about-home{
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  
-  .about-text{
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-  
-  }
-  
-  .social-media-logo{
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    bottom: 0rem;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    width: auto;
-    height: auto;
-    border-radius: 1rem;
-  
-  }
-  
-  
-  #about-social-logo{
-    font-size: 2rem;
-    margin: 1rem;
-    color: rgb(138, 138, 138);
-    text-decoration:none;
-  
-  
-  }
-  
-  /* hakkında   bölümü tasarımı    sonu  */
-  
-  
-  
-  
-  
-  
-  
-  
-  /* galeri  bölümü tasarımı    html . satır */
-  /* #galery{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
-  .galery-home{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; 
-    width: 90%;
-    height: 90%;
-    flex-flow: row wrap; 
-    padding: 5%;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .photo-galery{ 
-    display: flex;
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    flex-wrap: wrap; 
-    flex-flow: row wrap; 
-    padding: 5%;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
-  #galery-img-style{
-    width: 18rem;
-    height:18rem;  
-    border-radius: 1rem;
-    margin: 1rem;
-  
-  
-  }
-  
-   */
-  /* #galery-title-h{
-    display: flex;
-    width: 45%;
-    height: auto;
-    font-size: 2rem;
-    color: rgb(158, 157, 157);
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    padding: 1%;
-  } */
-  /* galeri  bölümü tasarımı    sonu  */
-  
-  
-  
-  
+}
+
+
+.rezervasyon-form-group p {
+  display: flex;
+  font-size: 1rem;
+  border-radius: 2rem;
+  color: rgb(0, 0, 0);
+
+}
+.rezervasyon-form-group input {
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.384);
+  color: rgb(255, 255, 255);
+  border: 0px solid black;
+
+}
+
+
+#message-form-rez{
+  display: flex;
+  width: 100%;
+  height: 3rem;
+
+}
+
+
+#rez-cend-button{
+  display: flex;
+  width: 80%;
+  margin-top: 10%;
+  padding: 5%;
+  border-radius: 1em;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background-color: rgb(66, 66, 66);
+  border: 0px rgb(24, 24, 24);
+}
+
+
+/* rezervasyon  bölümü tasarımı    sonu */
+
+
+
+
+
+
+
+/* hakkında   bölümü tasarımı    html . satır */
+#about{
+  display: flex;
+  width: 95%;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-home{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#about-text{
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+
+
+}
+.about-text-part{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  /* color: aliceblue; */
+
+
+
+}
+
+.social-media-logo{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0rem;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: auto;
+  height: auto;
+  border-radius: 1rem;
+
+}
+
+
+#about-social-logo{
+  font-size: 2rem;
+  margin: 1rem;
+  color: rgb(138, 138, 138);
+  text-decoration:none;
+
+
+}
+
+
+.watsap-button-right-end{
+  display: flex;
+  width: 2.8rem;
+  height: 2.8rem;
+  position: fixed;
+  left: 5%;
+  bottom: 10%;
+  border-radius: 55rem;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  z-index: 55;
+  border-bottom-left-radius: 1px;
+
+}
+
+
+#whatsapp-fa-style{
+  color: green;
+}
+
+
+
+/* hakkında   bölümü tasarımı    sonu  */
+
+
+
+
+
+
+
+
+/* galeri  bölümü tasarımı    html . satır */
+/* #galery{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.galery-home{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  width: 90%;
+  height: 90%;
+  flex-flow: row wrap; 
+  padding: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-galery{ 
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  flex-flow: row wrap; 
+  padding: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#galery-img-style{
+  width: 18rem;
+  height:18rem;  
+  border-radius: 1rem;
+  margin: 1rem;
+
+
+}
+
+ */
+/* #galery-title-h{
+  display: flex;
+  width: 45%;
+  height: auto;
+  font-size: 2rem;
+  color: rgb(158, 157, 157);
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+} */
+/* galeri  bölümü tasarımı    sonu  */
+
+
