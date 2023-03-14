@@ -1,11 +1,7 @@
-
-
-
-
 const logoChangeWhite = document.getElementById("logo-change-white");
 const logoChangeDark =  document.getElementById("logo-change-dark");
 const navBarChange =  document.querySelector(".nav-bar");
-const aboutTextChange = document.getElementById("about-text-part");
+const aboutTextChange = document.getElementById("about-text");
 const menuGroupsChange = document.querySelector(".menu-groups");
 const changeButtonSpan = document.getElementById("background-change-span");
 
@@ -77,19 +73,3 @@ function hideNonVisibleDivs() {
    }
  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
